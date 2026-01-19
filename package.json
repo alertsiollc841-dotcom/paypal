@@ -1,0 +1,19 @@
+{
+  "name": "photography-website",
+  "version": "1.0.0",
+  "description": "Professional photography static website on Heroku",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "path": "^0.12.7"
+  }
+}
